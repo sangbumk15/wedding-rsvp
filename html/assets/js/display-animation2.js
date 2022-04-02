@@ -3,5 +3,5 @@ var animation = lottie.loadAnimation({
     renderer: "svg",
     loop: true,
     autoplay: true,
-    path: "assets/lottie/palate_of_love2.json"
+    path: "html/assets/lottie/graphic_2.json"
 });
