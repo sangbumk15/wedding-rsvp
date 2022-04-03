@@ -2,6 +2,10 @@
 /*
   Additional
  */
+.nav-padding {
+    padding-right: 20px;
+}
+
 .image-wrapper {
     display:flex;
     justify-content:center;
@@ -19,4 +23,32 @@
 
 .home-background2 {
     background-color: #E39A8E;
+}
+
+.padding-custom-5 {
+    padding: 5rem 0;
+}
+
+.padding-custom-3 {
+    padding: 3rem 0;
+}
+
+@font-face {
+    font-family: 'Gowun Batang';
+    unicode-range: U+AC00-D7A3;
+}
+
+/*@font-face {*/
+/*    font-family: 'OpenSans';*/
+/*    unicode-range: U+26;*/
+/*}*/
+
+
+body {
+    font-size: 20px;
+    font-family: 'Gowun Batang', 'OpenSans';
+}
+
+* {
+    font-family: inherit;
 }
