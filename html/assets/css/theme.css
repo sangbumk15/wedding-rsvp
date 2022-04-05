@@ -19951,8 +19951,8 @@ body.ln-fullpage-active.layout-boxed section > .container-wide {
 }
 @media (min-width: 1200px) {
   body.ln-fullpage-active section {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
+    /*padding-top: 4.5rem;*/
+    /*padding-bottom: 4.5rem;*/
   }
   body.ln-fullpage-active section.is-scrollable {
     padding-top: 0;
