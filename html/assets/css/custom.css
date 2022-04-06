@@ -37,6 +37,15 @@
     padding: 3rem 0;
 }
 
+.section-padding {
+    padding-top: 4.5rem;
+}
+
+.remove-padding {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 @font-face {
     font-family: 'Raleway';
     unicode-range: U+0041-005A, U+0061-007A;

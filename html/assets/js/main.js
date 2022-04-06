@@ -189,8 +189,12 @@ License: https://themeforest.net/licenses/standard
               if(index == 1){
                 $body.addClass('ln-fullpage-intro-active');
                 $backtotop.removeClass('active');
+                $siteNavbar.addClass('scrolled-0');
+                $siteNavbar.removeClass('scrolled');
               } else {
                 $backtotop.addClass('active');
+                $siteNavbar.addClass('scrolled');
+                $siteNavbar.removeClass('scrolled-0');
               }
 
               $('.animated').each(function(){
