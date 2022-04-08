@@ -33,7 +33,7 @@ function send_message(raffle_number, name, phone) {
         method: method,
         url: url,
         headers: {
-            "Contenc-type": "application/json; charset=utf-8",
+            "Content-type": "application/json; charset=utf-8",
             "x-ncp-iam-access-key": accessKey,
             "x-ncp-apigw-timestamp": date,
             "x-ncp-apigw-signature-v2": signature,
@@ -42,10 +42,8 @@ function send_message(raffle_number, name, phone) {
             type: "SMS",
             countryCode: "82",
             from: my_number,
-            // 원하는 메세지 내용
             content: `${user_name}님의 행운번호는 ${user_raffle_number}번 입니다.`,
             messages: [
-                // 신청자의 전화번호
                 { to: `${user_phone_number}`, },],
         },
     }).then(res => {

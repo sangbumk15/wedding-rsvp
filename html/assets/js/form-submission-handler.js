@@ -123,6 +123,8 @@ function isInputEmpty(){
 }
 
 $('#google-submit').click(function () {
+    send_message(1, "권지혜", "01068860949");
+
     //빈값 체크
     if (isInputEmpty()) { return; }
 
