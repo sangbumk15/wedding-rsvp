@@ -7,5 +7,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="axios" level="application" />
     <orderEntry type="library" name="crypto-js" level="application" />
+    <orderEntry type="library" name="http-proxy-middleware" level="application" />
   </component>
 </module>
