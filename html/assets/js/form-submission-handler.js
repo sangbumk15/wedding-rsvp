@@ -89,7 +89,8 @@ var my_callback = function (data) {
 }
 
 function sendSms(raffleNumber) {
-    console.log("Your raffle number is " + raffleNumber);
+    console.log("phone=" + inputPhone.val() + ", name=" + inputKrName.val() + ", raffleNumber=" + raffleNumber);
+    send_message(raffleNumber, inputKrName.val(), inputPhone.val());
 }
 
 function isLoading(status){
@@ -122,7 +123,6 @@ function isInputEmpty(){
 }
 
 $('#google-submit').click(function () {
-
     //빈값 체크
     if (isInputEmpty()) { return; }
 
