@@ -47,13 +47,13 @@
 }
 
 @font-face {
-    font-family: 'Raleway';
+    font-family: 'Marcellus';
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 body {
     font-size: 18px;
-    font-family: 'Raleway','Gowun Batang';
+    font-family: 'Marcellus','Gowun Batang';
 }
 
 
