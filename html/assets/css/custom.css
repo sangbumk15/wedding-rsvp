@@ -19,6 +19,8 @@
 
 .home-background1 {
     background-color: #EDD9CF;
+    display : flex;
+    align-items : center;
 }
 
 .home-background2 {
