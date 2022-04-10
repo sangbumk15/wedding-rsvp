@@ -74,22 +74,14 @@ var my_callback = function (data) {
             setTimeout(function () {
                 snackbar.removeClass('show');
             }, 3000);
-
-            //값 비워주기
-            // inputName.val('');
-            // inputAge.val('');
-            // inputArea.val('');
         },
         error: function (request, status, error) {
             isLoading(false);
-            console.log("code:" + request.status + "\n" + "error:" + error);
-            console.log(request.responseText);
         }
     });
 }
 
 function sendSms(raffleNumber) {
-    console.log("phone=" + inputPhone.val() + ", name=" + inputKrName.val() + ", raffleNumber=" + raffleNumber);
     send_message(raffleNumber, inputKrName.val(), inputPhone.val());
 }
 
