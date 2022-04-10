@@ -70,7 +70,7 @@
                 <a class="nav-link" href="#palate-of-love">Greeting</a>
             </li>
             <li class="nav-item nav-padding" data-menuanchor="about-us">
-                <a class="nav-link" href="#about-us">We are</a>
+                <a class="nav-link" href="#about-us">Our Story</a>
             </li>
             <li class="nav-item nav-padding" data-menuanchor="our-friends">
                 <a class="nav-link" href="#our-friends">Committee</a>
@@ -110,16 +110,20 @@
 <div class="ln-fullpage" data-navigation="true">
 
     <!-- Section - Home -->
-    <section class="ln-section d-flex min-vh-100" data-anchor="home" data-tooltip="Home" data-ui="light"
+    <section class="ln-section d-flex home-relative-position min-vh-100" data-anchor="home" data-tooltip="Home" data-ui="light"
              data-navbar="navbar-light">
-        <div class="row">
-            <!--            <div id="lottie" class="col-md-6 padding-0">-->
-            <!--                <script src="html/assets/js/display-animation.js" type="text/javascript"></script>-->
-            <!--            </div>-->
-            <div class="col-md-6 padding-0 home-background1">
+        <div class="home-container home-absolute-position z-index-1">
+            <div class="col-md-8 home-background1">
+            </div>
+            <div class="col-md-4 home-background2">
+            </div>
+        </div>
+
+        <div class="home-container home-relative-position z-index-2" style="background: none">
+            <div class="col-md-6 home-background-transparent1">
                 <img style="width:100%" src="html/assets/images/main_title.png">
             </div>
-            <div id="lottie2" class="col-md-6 padding-0 home-background2">
+            <div id="lottie2" class="col-md-6 home-background-transparent2">
                 <script src="html/assets/js/display-animation2.js" type="text/javascript"></script>
             </div>
         </div>
@@ -155,7 +159,8 @@
     </section>
 
     <!-- Section - we are -->
-    <section class="ln-section d-xl-flex bg-light we-are-background section-padding" data-anchor="about-us" data-tooltip="What we do" data-ui="light"
+    <section class="ln-section d-xl-flex bg-light we-are-background section-padding" data-anchor="about-us"
+             data-tooltip="What we do" data-ui="light"
              data-navbar="navbar-light">
         <div class="container align-self-xl-center">
             <div class="row">
@@ -193,7 +198,8 @@
     </section>
 
     <!-- Section - Our friends -->
-    <section class="ln-section d-xl-flex section-padding" data-anchor="our-friends" data-tooltip="Our work" data-ui="dark"
+    <section class="ln-section d-xl-flex section-padding" data-anchor="our-friends" data-tooltip="Our work"
+             data-ui="dark"
              data-navbar="navbar-light">
         <div class="container align-self-xl-center">
             <div class="row mb-8">
@@ -219,14 +225,15 @@
     </section>
 
     <!-- Section - Timeline -->
-    <section class="ln-section d-xl-flex bg-light section-padding" data-anchor="timeline" data-tooltip="Contact" data-ui="dark"
+    <section class="ln-section d-xl-flex bg-light section-padding" data-anchor="timeline" data-tooltip="Contact"
+             data-ui="dark"
              data-navbar="navbar-light">
         <div class="container align-self-center">
             <div class="row mb-7">
                 <div class="col-12 col-xl-6">
                     <h2 class="mb-4 animated" data-animation="fadeInUp">Timeline</h2>
                     <p class="animated" data-animation="fadeInUp" data-animation-delay="150">
-                        3:00PM - 4:00PM  신랑 신부 헤이스 가든 도착. 웨딩 촬영.
+                        3:00PM - 4:00PM 신랑 신부 헤이스 가든 도착. 웨딩 촬영.
                         <br>
                         4:00PM - 5:00PM 신랑 신부 가족 및 웨딩커미티 도착. 사진 촬영.
                         <br>
@@ -263,7 +270,8 @@
     </section>
 
     <!-- Section - RSVP -->
-    <section class="ln-section d-xl-flex bg-light section-padding" data-anchor="rsvp" data-tooltip="Contact" data-ui="dark"
+    <section class="ln-section d-xl-flex bg-light section-padding" data-anchor="rsvp" data-tooltip="Contact"
+             data-ui="dark"
              data-navbar="navbar-light">
         <div class="container align-self-center">
             <div class="row mb-7">
@@ -344,7 +352,8 @@
     </section>
 
     <!-- Section - Our pick -->
-    <section class="ln-section d-xl-flex bg-light section-padding" data-anchor="our-pick" data-tooltip="Contact" data-ui="dark"
+    <section class="ln-section d-xl-flex bg-light section-padding" data-anchor="our-pick" data-tooltip="Contact"
+             data-ui="dark"
              data-navbar="navbar-light">
         <div class="container align-self-center">
             <h2 class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Lori & Gabriel’s Pick</h2>

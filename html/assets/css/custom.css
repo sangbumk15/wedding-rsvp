@@ -2,6 +2,35 @@
 /*
   Additional
  */
+.home-top-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.home-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-absolute-position {
+    position: absolute; !important;
+}
+
+.home-relative-position {
+    position: relative; !important;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
 .nav-padding {
     padding-right: 20px;
 }
@@ -17,6 +46,12 @@
     padding-left:0;
 }
 
+.home-background-transparent1 {
+    background: none;
+    display : flex;
+    align-items : center;
+}
+
 .home-background1 {
     background-color: #EDD9CF;
     display : flex;
@@ -25,6 +60,10 @@
 
 .home-background2 {
     background-color: #E39A8E;
+}
+
+.home-background-transparent2 {
+    background: none;
 }
 
 .we-are-background {
