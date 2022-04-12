@@ -8,5 +8,6 @@
     <orderEntry type="library" name="axios" level="application" />
     <orderEntry type="library" name="crypto-js" level="application" />
     <orderEntry type="library" name="http-proxy-middleware" level="application" />
+    <orderEntry type="library" name="roughmapLoader" level="application" />
   </component>
 </module>
