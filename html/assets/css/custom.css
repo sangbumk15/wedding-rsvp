@@ -93,6 +93,11 @@
     padding-bottom: 20px;
 }
 
+.component-padding-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .remove-padding {
     padding: 0 !important;
 }
@@ -106,9 +111,22 @@
     background-color: #F1CBBE;
 }
 
+.information-background {
+    background-color: #FAEDD9;
+}
+
+.map-background {
+    background-color: #4D674A;
+}
+
 .text-padding {
     padding-right: 40px;
     padding-left: 40px;
+}
+
+.component-center-vertical {
+    display: flex;
+    align-items: center;
 }
 
 .a {
