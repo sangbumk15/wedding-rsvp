@@ -88,8 +88,18 @@
     padding-bottom: 50px;
 }
 
+.component-padding-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .remove-padding {
     padding: 0 !important;
+}
+
+.remove-padding-side {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .about-us-background {
