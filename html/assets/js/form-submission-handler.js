@@ -88,10 +88,10 @@ function sendSms(raffleNumber) {
 function isLoading(status){
     if(status){
         $('html, body').addClass('wait');
-        googleSubmitBtn.attr('disabled', true).html('Sending...');
+        googleSubmitBtn.attr('disabled', true).html('전송중...');
     } else {
         $('html, body').removeClass('wait');
-        googleSubmitBtn.attr('disabled', false).html('Sent!');
+        googleSubmitBtn.attr('disabled', false).html('전송 완료!');
     }
 }
 

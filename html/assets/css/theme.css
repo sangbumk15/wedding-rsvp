@@ -68,9 +68,10 @@ body {
 }
 
 hr {
-  box-sizing: content-box;
-  height: 0;
+  height: 1px;
   overflow: visible;
+  color: white;
+  background-color:white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -415,8 +416,7 @@ h6, .h6 {
 }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: -1px;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -2009,11 +2009,10 @@ pre code {
   display: block;
   width: 100%;
   height: calc(1.5em + 1.125rem + 2px);
-  padding: 0.5625rem 1.125rem;
-  font-size: 1rem;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.5;
-  color: #515d6d;
+  color: white;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #eaecf1;
@@ -2035,18 +2034,15 @@ pre code {
   text-shadow: 0 0 0 #515d6d;
 }
 .form-control:focus {
-  color: #515d6d;
-  background-color: #fff;
-  border-color: #b2bdf6;
+  color: white;
   outline: 0;
-  box-shadow: none, 0 0 0 0.2rem rgba(64, 91, 232, 0.25);
 }
 .form-control::-ms-input-placeholder {
-  color: #768394;
+  color: white;
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #768394;
+  color: white;
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
@@ -2055,8 +2051,8 @@ pre code {
 }
 
 select.form-control:focus::-ms-value {
-  color: #515d6d;
-  background-color: #fff;
+  color: white;
+  background-color: none;
 }
 
 .form-control-file,
@@ -2126,10 +2122,6 @@ select.form-control[size], select.form-control[multiple] {
 
 textarea.form-control {
   height: auto;
-}
-
-.form-group {
-  margin-bottom: 1rem;
 }
 
 .form-text {
