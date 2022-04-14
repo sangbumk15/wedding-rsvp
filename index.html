@@ -423,7 +423,7 @@
                             <input type="text" id="krName" name="krName" placeholder="성함(한글)"
                                    class="form-control">
                         </div>
-                        <hr>
+                        <hr class="hr-rsvp">
                     </div>
                     <div class="col-md-6 component-padding-15 animated" data-animation="fadeInUp" data-animation-delay="150"
                          style="padding-left: 0;padding-right: 0">
@@ -431,7 +431,7 @@
                             <input type="text" id="engName" name="engName" placeholder="성함(영문)"
                                    class="form-control">
                         </div>
-                        <hr>
+                        <hr class="hr-rsvp">
                     </div>
                     <div class="col-md-6 component-padding-15 animated" data-animation="fadeInUp" data-animation-delay="150"
                          style="padding-left: 0;padding-right: 0">
@@ -439,7 +439,7 @@
                             <input type="text" id="phone" name="phone" placeholder="연락처(-없이)"
                                    class="form-control">
                         </div>
-                        <hr>
+                        <hr class="hr-rsvp">
                         <div>
                             <p style="font-size: 12px">* 참석하는 경우 SMS로 럭키드로우 행운번호를 보내드려요.</p>
                         </div>
@@ -450,7 +450,7 @@
                             <input type="text" id="email" name="email" placeholder="메일주소"
                                    class="form-control">
                         </div>
-                        <hr>
+                        <hr class="hr-rsvp">
                         <div>
                             <p style="font-size: 12px">* 불참하시더라도 추후 결혼식 사진을 공유드려요.</p>
                         </div>
@@ -467,70 +467,500 @@
     </section>
 
     <!-- Section - Our pick -->
-    <section class="ln-section d-xl-flex bg-light section-padding" data-anchor="our-pick" data-tooltip="Contact"
+    <section class="ln-section d-xl-flex remove-padding" data-anchor="our-pick" data-tooltip="Contact"
              data-ui="dark"
              data-navbar="navbar-light">
         <div class="container align-self-center">
-            <h2 class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Lori & Gabriel’s Pick</h2>
-            <div class="row">
-                <div class="col-12 col-xl-6 mb-8 mb-xl-0">
-                    <p class="animated" data-animation="fadeInUp" data-animation-delay="150">
-                    <h4>서울</h4>
-                    - 스시 시미즈: 서울 강남구 언주로152길 11-3 B1
-                    <br>
-                    - 미우: 서울 강남구 압구정동 415
-                    <br>
-                    - 모노로그: 서울 강남구 논현로149길 31 1층
-                    <br>
-                    - 엘픽: 서울 강남구 도산대로78길 25 1층
-                    <br>
-                    - 젠제로: 서울시 강남구 선릉로126길 14
-                    <br>
-                    - 토리시오: 서울시 강남구 도곡동 417-5
-                    <br>
-                    - 크레미엘: 서울 서초구 양재천로21길 3 1층
-                    <br>
-                    - 키친오늘: 서울 성동구 장터5길 9-1
-                    <br>
-                    - 버터팬트리: 서울시 성동구 성수동2가 289-205
-                    <br>
-                    - 키즈나: 서울 종로구 율곡로1길 78
-                    <br>
-                    - 코이크: 서울시 마포구 동교로39길 8
-                    <br>
-                    <br>
+            <div class="row remove-padding">
+                <div class="col-12 text-padding">
+                    <img style="width:35%; padding-bottom: 20px !important;" class="animated component-padding"
+                         data-animation="fadeInUp" data-animation-delay="150" src="html/assets/images/more_title.png"/>
+                    <div style="padding-bottom: 35px">
+                        <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 20px;">
+                            최초 공개,
+                            <br>
+                            꾸로기 맛집 리스트.
+                        </b>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 remove-padding">
+                    <img style="width:40%;" class="animated component-padding-12 text-padding" data-animation="fadeInUp"
+                         data-animation-delay="150" src="html/assets/images/more/seoul.png"/>
 
-                    <h4>부산</h4>
-                    - 가내수공업비토: 부산 해운대구 우동1로38번가길 25-8 2층
-                    <br>
-                    - 가솔린앤로지스: 부산 부산진구 전포동 357-57
-                    <br>
-                    <br>
-                    </p>
+                    <!-- 스시시미즈 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_01.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>스시시미즈</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    최형규 셰프님의 4명짜리 작은 공간이 좋다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 미우 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_02.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>미우</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    좋은 소고기를 다양한 부위로 코스로 즐기려면 선택은 언제나 미우.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 모노로그 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_03.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>모노로그</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    기승전결 강약 없이 처음부터 끝까지 좋은 재료로 술 마시고 싶다면.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 엘픽 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_04.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>엘픽</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    한국에서 이 정도 개성 있고 맛있는 스테이크를 먹어본 적이 없다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 젠제로 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_05.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>젠제로</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    대한민국 넘버원 젤라또/소르베.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 토리시오 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_06.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>토리시오</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    좋은 라멘은 홍대 마포 연남에만 있지 않고 매봉에도 있다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
                 </div>
 
-                <div class="col-12 col-xl-6">
-                    <p class="animated" data-animation="fadeInUp" data-animation-delay="150">
-                    <h4>제주</h4>
-                    - 토템오어: 제주시 한경면 조수리 1365-5
-                    <br>
-                    - 옐로우돕: 제주시 일도이동 380-2
-                    <br>
-                    - 가자우리집: 제주시 건입동 984-15
-                    <br>
-                    <br>
+                <div class="col-12 col-md-3 remove-padding">
+                    <!-- 크레미엘 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_07.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>크레미엘</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    프랑스 사장님 부부가 만들어 주는 최고의 크로와상.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
 
-                    <h4>강원</h4>
-                    - 사천진리물회: 강원도 강릉시 사천면 사천진리 7-1
-                    <br>
-                    - 여고시절카레떡볶이:강원도 강릉시 금학동 55-2
-                    <br>
-                    - 진태원: 강원도 평창군 대관령면 횡계리 325-18
-                    <br>
-                    - 보헤미안박이추커피본점: 강원도 강릉시 연곡면 영진리 181
-                    <br>
-                    - 미트컬쳐: 강원도 강릉시 견소동 178
-                    </p>
+                    <!-- 키친오늘 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_08.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>키친오늘</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    전문횟집들보다 숙성회가 더 맛있는 금호 맛집. 츤데레 사장님이 있는 곳.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 버터팬트리 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_09.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>버터팬트리</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    해초버터, 엔쵸비 올리브 버터가 맛있는 성수 수제 버터.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 키즈나 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_10.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>키즈나</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    소격동의 단정하고 빈틈 없는 스시집.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 코이크 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_11.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>코이크</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    미술작품인지 케이크인지.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px; padding-bottom: 50px">
+                        <hr class="hr-more">
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 remove-padding">
+                    <img style="width:40%;" class="animated component-padding-12 text-padding" data-animation="fadeInUp"
+                         data-animation-delay="150" src="html/assets/images/more/busan.png"/>
+
+                    <!-- 가내수공업비토 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_12.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>가내수공업비토</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    해운대에서 맛보는 프랑스와 이탈리아.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 가솔린앤로지스 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_13.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>가솔린앤로지스</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    나의 피는 츠케멘으로 되어 있어.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px; padding-bottom: 50px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <img style="width:40%;" class="animated component-padding-12 text-padding" data-animation="fadeInUp"
+                         data-animation-delay="150" src="html/assets/images/more/jeju.png"/>
+
+                    <!-- 토템오어 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_14.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>토템오어</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    제주에 미슐랭 3스타급 판나코타.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 옐로우돕 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_15.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>옐로우돕</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    제주 여행 가는 내 지인들이 다 가봤으면 좋겠다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 가자우리집 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_16.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>가자우리집</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    제주에 아침에 도착했다면 이 곳의 갈치조림을 꼭!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px; padding-bottom: 50px">
+                        <hr class="hr-more">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 remove-padding">
+
+                    <img style="width:40%;" class="animated component-padding-12 text-padding" data-animation="fadeInUp"
+                         data-animation-delay="150" src="html/assets/images/more/gangwon.png"/>
+
+                    <!-- 사천진리물회 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_17.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>사천진리물회</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    강릉 최고의 물회와 우럭미역국.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 여고시절카레떡볶이 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_18.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>여고시절카레떡볶이</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    강릉까지 가서 세 번 먹은 카레 떡볶이.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 진태원 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_19.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>진태원</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    찍먹파도 이 곳은 부먹으로 먹어야.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px">
+                        <hr class="hr-more">
+                    </div>
+
+                    <!-- 보헤미안박이추커피본점 -->
+                    <div class="row-without-padding component-padding-12 text-padding">
+                        <div class="col-2 col-md-2 remove-padding">
+                            <img style="width:100%;" class="animated" data-animation="fadeInUp"
+                                 data-animation-delay="150" src="html/assets/images/more/img_more_20.png"/>
+                        </div>
+                        <div class="col-10 col-md-10" style="padding-right: 0 !important;">
+                            <div>
+                                <b class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 18px;">
+                                    <u>보헤미안박이추커피본점</u>
+                                </b>
+                            </div>
+                            <div>
+                                <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="font-size: 14px;">
+                                    집에서 해 먹는 핸드드립 원두는 무조건 여기서 배달 시킵니다,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-left: 40px; padding-bottom: 50px">
+                        <hr class="hr-more">
+                    </div>
                 </div>
             </div>
         </div>
