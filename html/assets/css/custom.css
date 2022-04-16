@@ -108,6 +108,11 @@
     padding-bottom: 15px;
 }
 
+.component-padding-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 .remove-padding {
     padding: 0 !important;
 }
@@ -151,6 +156,20 @@ input[type="text"]
 .component-center-vertical {
     display: flex;
     align-items: center;
+}
+
+.float {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:30px;
+    left:30px;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 99;
 }
 
 .radio {

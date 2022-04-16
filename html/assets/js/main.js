@@ -41,6 +41,7 @@ License: https://themeforest.net/licenses/standard
     siteNavbar_toggled = $siteNavbar.attr('data-navbar-toggled') ? $siteNavbar.attr('data-navbar-toggled') : '',
     siteNavbar_scrolled = $siteNavbar.attr('data-navbar-scrolled') ? $siteNavbar.attr('data-navbar-scrolled') : '',
     $backtotop = $('a.backtotop'),
+    $movetorsvp = $('.float'),
     animationsRepeat = true, // true, false - Only when you use Fullpage.js
     target,
     trueMobile;
@@ -490,6 +491,29 @@ License: https://themeforest.net/licenses/standard
     });
   }
 
+  // [6-1. Move to rsvp]
+  function ln_moveToRSVP() {
+
+    $movetorsvp.off('click');
+    $movetorsvp.on('click', function(e) {
+      e.preventDefault();
+
+      if($body.hasClass('ln-fullpage-active')){
+        $.fn.fullpage.moveTo(6);
+      } else {
+        var target = $(this).attr('href');
+
+        $.smoothScroll({
+          offset: 0,
+          easing: 'swing',
+          speed: 800,
+          scrollTarget: target,
+          preventDefault: false
+        });
+      }
+    });
+  }
+
   // [7. Backgrounds]
   function ln_backgrounds(){
 
@@ -821,11 +845,13 @@ License: https://themeforest.net/licenses/standard
     ln_fullpage();
     ln_scrollProgress('none');
     ln_backToTop();
+    ln_moveToRSVP();
   });
 
   $(window).on('scroll', function(){
     ln_scrollProgress('none');
     ln_backToTop();
+    ln_moveToRSVP();
     ln_navigationOnScroll();
   });
 
