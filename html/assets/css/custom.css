@@ -149,6 +149,11 @@ input[type="text"]
     padding-left: 40px;
 }
 
+.padding-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .hide-component {
     visibility: hidden;
 }
@@ -168,7 +173,7 @@ input[type="text"]
     color:#FFF;
     border-radius:60px;
     text-align:center;
-    box-shadow: 2px 2px 3px #999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 99;
 }
 
