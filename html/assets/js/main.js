@@ -493,7 +493,6 @@ License: https://themeforest.net/licenses/standard
 
   // [6-1. Move to rsvp]
   function ln_moveToRSVP() {
-
     $movetorsvp.off('click');
     $movetorsvp.on('click', function(e) {
       e.preventDefault();

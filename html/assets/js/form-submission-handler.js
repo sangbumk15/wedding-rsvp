@@ -57,7 +57,7 @@ var my_callback = function (data) {
         data: {
             "kr_name": inputKrName.val(),
             "en_name": inputEngName.val(),
-            "phone": inputPhone.val(),
+            "phone": inputPhone.val().replaceAll('-',''),
             "email": inputEmail.val(),
             "guest": inputGuest,
             "attending": inputAttending,
@@ -82,7 +82,7 @@ var my_callback = function (data) {
 }
 
 function sendSms(raffleNumber) {
-    send_message(raffleNumber, inputKrName.val(), inputPhone.val());
+    send_message(raffleNumber, inputKrName.val(), inputPhone.val().replaceAll('-',''));
 }
 
 function isLoading(status){
