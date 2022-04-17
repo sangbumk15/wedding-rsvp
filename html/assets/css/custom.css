@@ -177,6 +177,12 @@ input[type="text"]
     z-index: 99;
 }
 
+@media (min-width: 576px) {
+    .float {
+        visibility: hidden;
+    }
+}
+
 .radio {
     width: 20px;
     height: 20px;
