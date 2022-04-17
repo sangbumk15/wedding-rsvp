@@ -331,6 +331,19 @@ License: https://themeforest.net/licenses/standard
       }
     });
 
+    $(window).scroll(function() {
+
+      if ($(this).scrollTop()>0)
+      {
+        $('.navbar-brand-img').show();
+      }
+      else
+      {
+        $('.navbar-brand-img').hide();
+      }
+    });
+
+
     // Close nav on click outside of '.site-navbar'
     $(document).on( 'click touchstart', function(e){
       if ( $('.site-navbar').is(e.target) || $(e.target).parents('.site-navbar').length > 0 || $('.site-navbar').is(e.target) || $(e.target).hasClass('navbar-toggler') ){
