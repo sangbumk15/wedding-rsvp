@@ -300,6 +300,7 @@ License: https://themeforest.net/licenses/standard
       } else {
         if( $(this).parents('li').attr('data-menuanchor') ){
           target = $('[data-anchor="'+ target.substr(1) +'"]');
+          $siteNavbarToggler.trigger('click');
         } else if( $('[data-anchor="'+ target.substr(1) +'"]').length > 0 ){
           target = $('[data-anchor="'+ target.substr(1) +'"]');
         }
