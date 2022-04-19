@@ -91,7 +91,7 @@ function isLoading(status){
         googleSubmitBtn.attr('disabled', true).html('전송중...');
     } else {
         $('html, body').removeClass('wait');
-        googleSubmitBtn.attr('disabled', false).html('전송 완료!');
+        googleSubmitBtn.attr('disabled', true).html('전송 완료!');
     }
 }
 
