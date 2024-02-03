@@ -12,7 +12,7 @@ function send_message(raffle_number, name, phone) {
         url: url,
         headers: {
             "Content-type": "application/json; charset=utf-8",
-            "x-ncp-apigw-api-key": "Qj2V95EyTrcVBO4JEpYhKAIR16Nl4RULLlyOKNy5",
+            "x-ncp-apigw-api-key": "",
         },
         data: {
             name: user_name,
